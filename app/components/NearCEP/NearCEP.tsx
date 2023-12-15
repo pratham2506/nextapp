@@ -1,5 +1,5 @@
 import React from 'react'
-import './Nearcep.css'
+import './NearCEP.css'
 import Link from 'next/link'
 const Nearcep = () => {
   return (

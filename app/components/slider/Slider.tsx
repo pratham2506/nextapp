@@ -4,7 +4,6 @@ import './slider.css'
 import Link from 'next/link';
 
 
-import "./Slider.css";
 
 
 const Slider = () => {
