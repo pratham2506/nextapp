@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+#industry
+{
+    padding: 80px 0 0;
+    margin: 0;
+}
+
+.industryImg{
+    background:    #e8eaed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#industry .industy_bg{
+    height: 100vh;
+    background: url('https://droneairgear.com/assets/industry_land_converted_jpg-ad8695a9.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+#industry .industry_landing
+{
+    /* height: 100vh;
+    background: url('../../assets/industry_land_converted_jpg.jpg');
+    background-position: center;
+    background-size: cover; */
+    /* padding: 3rem; */
+    max-width: 1360px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 3rem;
+}
+#industry .industry_landing .landing_text_area{
+    width: 50%;
+    padding: 5rem 1rem;
+    
+    /* max-width: 1360px; */
+    /* margin: 0 auto; */
+    /* margin-left: 3rem; */
+
+}
+#industry .industry_landing .industry_dummy{
+    width: 50%;
+}
+#industry .industry_landing .landing_text_area h1{
+    color: #333;
+    font-weight: 700!important;
+    line-height: 1.1!important;
+    letter-spacing: -0.03em;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: var(--heading);
+
+   
+}
+#industry .industry_landing .landing_text_area p{
+    font-size: var(--para);
+    line-height: 1.3;
+    margin-bottom: 32px;
+}
+#industry .industry_landing .landing_text_area .uni_btn{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+#industry .industry_landing .landing_text_area .uni_btn .uni_button{
+    
+
+    border-radius: 4px;
+    text-transform: none;
+    text-align: center;
+    max-width: 320px;
+    -webkit-transition: none;
+    transition: none;
+    color: #fff;
+    background: var(--satan);
+    box-shadow: var(--satan);
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    padding: 12px 32px;
+
+}
+
+#industry .ind_why_us{
+    padding: 3rem 0;
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+#industry .ind_why_us .why_us_heading{
+    text-align: left;
+    padding: 1rem 5rem;
+}
+#industry .ind_why_us .why_us_heading h1{
+    color: #333;
+    font-weight: 700;
+    font-size: var(--heading);
+    line-height: 1.2;
+    margin-bottom: 12px;
+
+}
+#industry .ind_why_us .why_us_heading p{
+    color: #666;
+    font-weight: 400;
+    font-size: var(--para);
+    line-height: 24px;
+
+}
+#industry .ind_why_us .why_us_trade{
+    outline: 1px solid #DDD;
+    border-radius: 8px;
+    margin:1rem 5rem;
+}
+#industry .ind_why_us .why_us_trade .trade{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+#industry .ind_why_us .why_us_trade .trade .why_us_content{
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    border-right:1px solid #DDD;
+    padding-right: 2rem;
+}
+#industry .ind_why_us .why_us_trade .trade .border_none{
+    border-right:none;
+}
+#industry .ind_why_us .why_us_trade .trade .why_us_content .rating{
+    color: #f95f35;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+#industry .ind_why_us .why_us_trade .trade .why_us_content .content{
+    font-weight: 400;
+    font-size: var(--para);
+    line-height: 24px;
+    color: #484848;
+    width: 184px;
+    text-align: left;
+}
+
+
+
+#industry .ind_adv{
+    /* padding: 5rem 8rem; */
+    
+    background: #e8eaed;
+    width: 100%;
+}
+#industry .ind_adv .ind_adv_max{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+#industry .ind_adv .ind_adv_max .ind_adv_heading{
+    width:70%;
+}
+#industry .ind_adv .ind_adv_max .ind_adv_heading h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: var(--heading);
+    line-height: 1.2;
+    margin: 0 auto 20px auto;
+    color: #242a33;
+}
+#industry .ind_adv .ind_adv_max .ind_adv_heading p{
+    text-align: center;
+    font-size: var(--para);
+    line-height: 1.2;
+    color: #0d0d0d;
+}
+#industry .ind_adv .ind_adv_max .ind_adv_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+#industry .ind_adv .ind_adv_max .ind_adv_info .adv_info_logo>img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+
+}
+#industry .ind_adv .ind_adv_max .ind_adv_info .adv_info{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#industry .ind_adv .ind_adv_max .ind_adv_info .adv_info .adv_info_sub_info{
+    text-align: center;
+
+  
+}
+#industry .ind_adv .ind_adv_max .ind_adv_info .adv_info .adv_info_sub_info h1{
+    font-size: var(--para);
+    line-height: 28px;
+    font-weight: 900;
+    color: #333;
+
+}
+#industry .ind_adv .ind_adv_max .ind_adv_info .adv_info .adv_info_sub_info p{
+    
+    margin: 8px 0;
+    font-size: var(--small);
+    line-height: 24px;
+    max-width: 400px;
+    color: #333;
+}
+
+#industry .ind_emp_branding{
+    /* padding: 5rem 8rem; */
+    width: 100%;
+    
+}
+#industry .ind_emp_branding .ind_emp_max{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 2.5rem;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_heading{
+    width: 50%;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_heading .sub_heading{
+    font-size: var(--para);
+    line-height: 38px;
+    margin: 0;
+    color: #242a33;
+    margin-bottom: 5px;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_heading .design{
+    background: #1179ef;
+    height: 3px;
+    margin: 0;
+    width: 10pc;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_heading h1{
+    font-weight: 900;
+    font-size: var(--heading);
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    color: #0d0d0d;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_heading p{
+    font-weight: 400;
+    font-size: var(--para);
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #333;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#industry .ind_emp_branding .ind_emp_max .branding_img img{
+    width: 100%;
+}
+#industry .ind_process_com{
+    /* padding: 5rem 8rem; */
+    width: 100%;
+   
+    background: #e8eaed;
+}
+#industry .ind_process_com .ind_process_max{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    
+}
+#industry .ind_process_com .ind_process_max .ind_process{
+    width:100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_info h1{
+    font-weight: 900;
+    font-size: var(--heading);
+    line-height: 1.2;
+    margin: 0 auto;
+    color: #242a33;
+    text-align: center;
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_info p{
+    width: 70%;
+    font-size: var(--para);
+    line-height: 1.5;
+    color: #0d0d0d;
+    text-align: center;
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_sub_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_sub_info .pro_sub{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_sub_info .pro_sub .pro_logo>img{
+    width: 80px;
+    height: 80px;
+
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_sub_info .pro_sub .pro_sub_info{
+    text-align:  center;
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_sub_info .pro_sub .pro_sub_info h1{
+    font-size: var(--para);
+    line-height: 28px;
+    font-weight: 900;
+
+}
+#industry .ind_process_com .ind_process_max .ind_process .ind_pro_sub_info .pro_sub .pro_sub_info p{
+    margin: 8px 0;
+    font-size: var(--small);
+    line-height: 24px;
+    max-width: 400px;
+}
+#industry .ind_banner{
+    background-image: linear-gradient(120deg, rgba(0,104,103,0.75) 0%, rgba(0, 89, 141, 0.75) 50%, rgba(10, 153, 163, 0.75) 100%), url('https://www.glassdoor.com/employers/app/uploads/sites/2/2020/11/success-story-icertis.jpg');
+    padding: 5rem 8rem;
+}
+#industry .ind_banner .logo, 
+#industry .ind_banner .logo {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+#industry .ind_banner .info{
+    font-weight: 400;
+    font-size: var(--para);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+#industry .ind_banner .write_by{
+    font-size: var(--para);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:1290px){
+    #industry .ind_why_us .why_us_trade .trade .why_us_content{
+        border: 0;
+    }
+}
+@media (max-width:800px){
+    #industry .ind_emp_branding .ind_emp_max{
+        flex-direction: column;
+    }
+    #industry .ind_emp_branding .ind_emp_max .branding_heading{
+        width: 100%;
+    }
+    #industry .ind_emp_branding .ind_emp_max .branding_img{
+        width: 100%;
+    }
+}
+@media (max-width:630px){
+    #industry .industy_bg{
+        background: url('https://droneairgear.com/assets/industry_land_converted_jpg-ad8695a9.jpg');
+        height: 100vh;
+        background-position: left;
+        background-size: cover;
+        width: 100%;
+    }
+}
+@media (max-width:910px){
+    #industry .industry_landing .landing_text_area{
+        width: 100%;
+    }
+    #industry .industry_landing .industry_dummy{
+        width: 0%;
+    }
+}
+@media (max-width:450px){
+    #industry .industry_landing{
+        background-position: right;
+    }
+    #industry .industry_landing .landing_text_area{
+        width: 100%;
+    }
+
+    #industry .ind_why_us{
+        padding: 3rem;
+    }
+    #industry .ind_why_us .why_us_heading{
+        padding: 1rem 0rem;
+    }
+    #industry .ind_why_us .why_us_trade{
+        margin: 1rem 0;
+    }
+    #industry .ind_why_us .why_us_trade .trade .why_us_content{
+        border: 0;
+    }
+    #industry .ind_adv{
+        padding: 5rem 1rem;
+    }
+    #industry .ind_emp_branding{
+        padding: 5rem 1rem;
+        
+    }
+    #industry .ind_emp_branding .branding_heading{
+        width: 100%;
+    }
+    #industry .ind_emp_branding .branding_img{
+        width: 100%;
+    }
+    #industry .ind_process_com{
+        padding: 5rem 1rem;
+    }
+    #industry .ind_banner{
+        padding: 5rem 1rem;
+    }
+}
+
+
+
+
+
+#industry .uni_partner_bg{
+    background: #fff;
+    padding: 2rem 0rem;
+}
+#industry .our_uni_partner{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1360px;
+    margin: auto;
+}
+#industry .our_uni_partner .uni_partner_left{
+    width:600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+#industry .our_uni_partner .uni_partner_left ul{
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 12px;
+    margin-bottom: 0;
+    left: 1px;
+    top: 1px;
+}
+#industry .our_uni_partner .uni_partner_left ul li{
+    overflow: hidden;
+    height: 98px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 24px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-right: 1px solid #e5e7e8;
+    border-bottom: 1px solid #e5e7e8;
+}
+#industry .our_uni_partner .uni_partner_left ul .border_right
+{
+    border-right: 0px;
+}
+#industry .our_uni_partner .uni_partner_left ul .border_bottom
+{
+    border-bottom: 0px;
+}
+#industry .our_uni_partner .uni_partner_left ul li img
+{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}
+#industry .our_uni_partner .uni_partner_right{
+    width:600px;
+    padding: 1rem;
+}
+
+#industry .our_uni_partner .uni_partner_right h1{
+    color: #333;
+    font-size: 2.75rem;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+    line-height: 100%!important;
+}
+
+
+
+
+
+
+

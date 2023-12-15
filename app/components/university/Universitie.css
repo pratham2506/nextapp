@@ -1,0 +1,457 @@
+#universitie{
+    padding: 0;
+    margin: 0;
+}
+#universitie .uniblock{
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+/* #universitie .uniblock .tp{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    top: calc(-100px - 0px + 1px);
+    margin-top: -1px;
+} */
+#universitie .uniblock .uni_landing_bg{
+    /* width: 100%; */
+    background-color: #f5f7f8;
+    padding: 0;
+    margin: 0;
+}
+#universitie .uniblock .uni_landing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 5rem; */
+    margin: 0 auto;
+    gap: 3rem;
+    max-width: 1360px;
+    
+}
+#universitie .uniblock .uni_landing .uni_land_left{
+    width:600px;
+    padding: 1.8rem;
+}
+#universitie .uniblock .uni_landing .uni_land_left h1{
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: var(--heading);
+    
+}
+#universitie .uniblock .uni_landing .uni_land_left p{
+    font-size: var(--para);
+    color: #333;
+}
+#universitie .uniblock .uni_landing .uni_land_left .uni_btn{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+#universitie .uniblock .uni_landing .uni_land_left .uni_btn .uni_button{
+    
+
+    border-radius: 4px;
+    text-transform: none;
+    text-align: center;
+    max-width: 320px;
+    -webkit-transition: none;
+    transition: none;
+    color: #fff;
+    background: var(--satan);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    padding: 12px 32px;
+
+}
+#universitie .uniblock .uni_landing .uni_land_right{
+    width:600px;
+}
+#universitie .uni_landing .uni_land_right img{
+    
+    image-resolution:inherit;
+    width: 100%;
+    height: 100%;
+}
+
+#universitie .uniblock .uni_highlight_info{
+    position: relative;
+    padding: 0rem;
+    /* float: left; */
+    left: 50%;
+    width: 50%;
+    max-width: 720px;
+}
+#universitie .uniblock .uni_highlight_info .uni_highlight_infoo{
+    margin-left: -100%;
+    max-width: 200%;
+}
+#universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box{
+    background: #191919;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: -64px;
+    margin-bottom: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+#universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .uni_info{
+    position: relative;
+    margin: 32px 0;
+    padding: 16px 64px;
+   
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-right: 1px solid #636363;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .border{
+    border: 0;
+}
+#universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .uni_info .uni_persentage{
+    font-size: var(--medium);
+    font-weight: 600!important;
+    line-height: 40px!important;
+    margin-right: 16px;
+
+}
+#universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .uni_info .uni_persentage .uni_sub_info{
+    
+    font-weight: 400;
+    font-size: var(--para);
+    line-height: 19px!important;
+}
+
+#universitie .uni_partner_bg{
+    background-color: #fff;
+    padding: 5rem 0;
+    margin: 0;
+}
+#universitie .uni_partners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0rem;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+#universitie .uni_partners .partners_info{
+    padding: 2rem;
+    text-align: left;
+    width: 600px;
+}
+#universitie .uni_partners .partners_img{
+    
+    width: 600px;
+}
+#universitie .uni_partners .partners_info h1{
+    color: #333;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+    font-size: var(--heading);
+    padding: 0;
+    margin: 0;
+}
+#universitie .uni_partners .partners_info p{
+    font-size: var(--para);
+    color: #333;
+    padding-top: 1rem;
+}
+
+#universitie .uni_imp_bg{
+    background-color: #f5f7f8;
+    padding: 5rem 0rem;
+    margin: 0;
+}
+#universitie .uni_imp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    max-width: 1360px;
+    gap: 1rem;
+    margin: 0 auto;
+}
+#universitie .uni_imp .uni_imp_left{
+    width:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 64px;
+}
+#universitie .uni_imp .uni_imp_left img{
+    width:100%;
+    /* height: 550px; */
+    border-radius: 8px;
+   
+    object-fit: contain;
+    object-position: top;
+}
+
+
+#universitie .uni_imp .uni_imp_right{
+    width: 600px;
+    text-align: left;
+    padding: 0 1rem;
+}
+#universitie .uni_imp .uni_imp_right .sub_heading{
+    font-size: 20px!important;
+    line-height: 150%;
+    color: var(--yakuza);
+    letter-spacing: -0.03em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+#universitie .uni_imp .uni_imp_right h1{
+    font-size: var(--heading);
+    font-style: normal;
+    font-weight: 600!important;
+    line-height: 100%!important;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+#universitie .uni_imp .uni_imp_right p{
+    letter-spacing: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+   
+    font-weight: 400;
+    color: #333;
+}
+
+#universitie .uni_imp .uni_imp_right .uni_imp_info_heading{
+    font-size: 20px!important;
+    line-height: 150%!important;
+    letter-spacing: -0.02em;
+}
+
+#universitie .uni_imp .uni_imp_right .css-0{
+    color:var(--devil);
+    margin-right: 20px;
+}
+#universitie .uni_curriculum_bg{
+    background: #191919;
+    padding: 3rem 0rem;
+}
+#universitie .uni_curriculum{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1360px;
+    gap: 5rem;
+}
+#universitie .uni_curriculum .curri_heading{
+    padding: 1rem;
+    width: 600px;
+    align-self: flex-start;
+}
+#universitie .uni_curriculum .curri_heading h1{
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    font-size: 3rem!important;
+    line-height: 100%!important;
+    letter-spacing: -3%!important;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    color: #fff;
+}
+#universitie .uni_curriculum .curri_heading p{
+    font-weight: 400;
+    font-size: 1.25rem!important;
+    line-height: 150%!important;
+    letter-spacing: -2%!important;
+    margin-bottom: 64px;
+    color: #fff;
+}
+#universitie .uni_curriculum .curri_blocks{
+    width:600px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:0.8rem;
+    column-gap: 3rem;
+    padding: 1rem;
+}
+#universitie .uni_curriculum .curri_block{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+#universitie .uni_curriculum .curri_block .curri_block_up{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+#universitie .uni_curriculum .curri_block .curri_block_down
+{
+    text-align: left;
+}
+#universitie .uni_curriculum .curri_block .curri_block_down h1{
+    font-size: 1.25rem!important;
+    line-height: 100%;
+    letter-spacing: -3%;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #fff;
+
+}
+#universitie .uni_curriculum .curri_block .curri_block_down p{
+    font-weight: 400;
+    font-size: 1rem!important;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+#universitie .uni_partner_bg{
+    background: #fff;
+    padding: 2rem 0rem;
+}
+#universitie .our_uni_partner{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1360px;
+    margin: auto;
+}
+#universitie .our_uni_partner .uni_partner_left{
+    width:600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+#universitie .our_uni_partner .uni_partner_left ul{
+    overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 12px;
+    margin-bottom: 0;
+    left: 1px;
+    top: 1px;
+}
+#universitie .our_uni_partner .uni_partner_left ul li{
+    overflow: hidden;
+    height: 98px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 24px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-right: 1px solid #e5e7e8;
+    border-bottom: 1px solid #e5e7e8;
+}
+#universitie .our_uni_partner .uni_partner_left ul .border_right
+{
+    border-right: 0px;
+}
+#universitie .our_uni_partner .uni_partner_left ul .border_bottom
+{
+    border-bottom: 0px;
+}
+#universitie .our_uni_partner .uni_partner_left ul li img
+{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}
+#universitie .our_uni_partner .uni_partner_right{
+    width:600px;
+    padding: 1rem;
+}
+
+#universitie .our_uni_partner .uni_partner_right h1{
+    color: #333;
+    font-size: 2.75rem;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+    line-height: 100%!important;
+}
+
+@media (max-width:1200px){
+    #universitie .uni_partners .partners_img{
+        display: none;
+    }
+    #universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box{
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    #universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .uni_info{
+        border: 0;
+        /* border-bottom: 1px solid #636363; */
+    }
+    #universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .none{
+        border: 0;
+    }
+}
+@media (max-width:550px){
+    #universitie .uniblock .uni_highlight_info .uni_highlight_infoo .uni_highlight_info_box .uni_info{
+        gap: 0.8rem;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}

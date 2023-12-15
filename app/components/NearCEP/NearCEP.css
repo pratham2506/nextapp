@@ -1,0 +1,65 @@
+.nc-maindiv{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    background: var(--satan);
+    border-radius: 15px;
+    box-shadow: 0px 0px 39px -6px #f95f35;
+}
+
+.nc-maindiv h1{
+    font-size: var(--medium);
+    color: #fff;
+}
+
+.nc-maindiv button{
+    width: max-content;
+    padding: .5rem 2rem;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: var(--para);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nc-maindiv button:hover{
+    background: #fff;
+    color: #f95f35;
+    transition: .5s;
+}
+
+.nc-greydiv{
+    background:#fff;
+    color: #3d4853;
+    box-shadow: 0px 0px 39px -6px #3d4853;
+}
+
+.nc-greydiv h1{
+    color: #3d4853;
+}
+
+.nc-greydiv button{
+    background: #3d4853;
+    border: 1px solid #3d4853;
+}
+
+.nc-greydiv button:hover{
+    color: #3d4853;
+}
+
+@media (max-width: 800px) {
+
+    .nc-maindiv{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+}

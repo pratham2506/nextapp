@@ -1,0 +1,225 @@
+
+
+.videoCon{
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 5rem 2.5rem;
+    justify-content: space-between;
+}
+
+
+.videoTop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.videoTop .videoLeft{
+    width: 80%;    
+}
+
+.videoTop .videoLeft>video{
+    width: 100%;
+    object-fit: fill;
+}
+
+.videoTop .videoRight{
+    width: 30%;
+    height: 100%;
+}
+
+.videoTop .videoRight .videoInfo{
+    z-index: 20;
+    background-color: transparent;
+    width: 100%;
+
+    /* height: 100%; */
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    position: relative;
+    padding: 3rem 2rem 3rem;
+    flex-direction: column;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.videoTop .videoRight .videoInfo>h4{
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.videoTop .videoRight .videoInfo >p{
+    font-size: var(--para);
+    width: 100%;
+    text-align: left;
+    line-break: 1.5;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+.videoTop .videoRight .videoSpan{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    position: absolute;
+    margin: 10px 0 0;
+    bottom: 20px;
+    left: auto;
+    right: auto;
+    color: var(--devil);
+}
+
+.videoBottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 0rem 0;
+    justify-content: center;
+}
+.videoBottom .videoimg{
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("https://images.unsplash.com/photo-1580287925446-7ed8ce2709c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"); */
+}
+.videoBottom .videoimg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+@media (max-width:1000px) {
+    
+.videoTop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.videoTop .videoLeft{
+    width: 100%;    
+}
+.videoTop .videoRight{
+    width: 100%;
+    height: 100%;
+}
+
+}
+@media (max-width:800px) {
+
+    .videoBottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0 auto;
+        padding: 0rem 0;
+        justify-content: center;
+    }
+    .videoBottom .videoimg{
+        width: 100%;
+        height: 200px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.videoCon .videoLeft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.videoCon .videoLeft span{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #717375;
+    margin-bottom: 10px;
+}
+
+.videoCon .videoLeft h1{
+    width: 100%;
+    font-size: var(--heading);
+    color: var(--bg-black);
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.videoCon .videoLeft p{
+    font-size: var(--para);
+    width: 100%;
+    text-align: left;
+    line-break: 1.5;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.videoCon .videoRight{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.videoCon .videoRight .videoLay{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoCon .videoRight .videoLay img{
+    width: 100%;
+    object-fit: cover;
+    
+} */
+
+
+

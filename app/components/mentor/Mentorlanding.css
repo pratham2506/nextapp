@@ -1,0 +1,113 @@
+.mentor_land{
+    /* padding: 5rem 0; */
+    /* height: 700px; */
+    width: 100%;
+}
+.sw-1{
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.sw-2{
+    height: auto;
+}
+.sw-3{
+    min-height: 480px;
+    position: relative;
+    padding: 5rem 24px;
+}
+.mentor_land .svg-CurvedHero{
+    left: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: -9%;
+    left: 38%;
+    -webkit-transform: translateX(-50%) rotate(15deg);
+    transform: translateX(-50%) rotate(15deg);
+    min-width: 2240px;
+    object-fit: cover;
+
+    fill:#3d4853;
+}
+.mentor_land svg:not(:root) {
+    overflow: visible;
+    
+} 
+.mentor_land svg{
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.mentor_land .max-width_for_info{
+    max-width: 1360px;
+    margin: 0 auto;
+    width: 100%;
+
+    position: relative;
+}
+.mentor_land .max-width_for_info .info_landing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding: 0 1rem;
+    margin: 3rem 0 0 0;
+    gap: 2rem;
+}
+.mentor_land .max-width_for_info .info_landing .mentor_info_land{
+    max-width: 600px;
+}
+.mentor_land .max-width_for_info .info_landing .mentor_info_land h1{
+    font-size: var(--heading);
+    color: #ffffff;
+
+}
+.mentor_land .max-width_for_info .info_landing .mentor_info_land p{
+    font-size: var(--para);
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+.mentor_land .max-width_for_info .info_landing .mentor_land_img{
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    gap: 1rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mentor_land .max-width_for_info .info_landing .mentor_land_img .side_img_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mentor_land .max-width_for_info .info_landing .mentor_land_img .side_img_left>img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top right;
+}
+.mentor_land .max-width_for_info .info_landing .mentor_land_img .side_img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center ;
+}
+
+
+@media(max-width:1000px){
+    .mentor_land .max-width_for_info .info_landing{
+        flex-direction: column;
+    }
+}
+@media(max-width:600px){
+    .mentor_land .max-width_for_info .info_landing .mentor_land_img .side_img_left{
+        display: none;
+    }
+}

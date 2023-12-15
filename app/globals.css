@@ -2,26 +2,178 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+:root{
+  --text-grey:rgba(77, 77, 77, 0.938);;
+  --bg-grey:#e6e6e6;
+  --bg-black:     #1a1a1a;
+  --black:#000;
+  --white:#fff;
+
+
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --indblack: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4CB256;
+  --video: #4A4EB7;
+  --location: #EF5757;
+--shedule: #E1AE4A;
+
+--devil:rgb(251, 83, 38);
+--yakuza:#b8b8b8;
+--satan:linear-gradient(111.04deg, rgb(246, 121, 11) -0.63%, rgb(251, 83, 38) 107.47%), rgb(216, 82, 23);
+
+
+  --red:#d00023;
+  --alternate:#45b19d;
+  --heading:  clamp(1.5rem,3.5vw,3.2rem);
+  --medium:clamp(1.5rem,1.8vw,2.2rem);
+  --para:clamp(1rem,1.2vw,1.25rem);
+  --small:clamp(0.8rem,0.9vw,1.15rem);
+  --container-width-lg:1280px;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: #ffffff;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
 }
+
+.top100{
+  margin-top: 80px;
+}
+
+.go-top-btn:hover {
+  background-color: #26ce8f;
+  color: #183052;
+  /* Add a dark-grey background on hover */
+  /* /box-shadow: 10px 10px 40px 10px var(--button), -10px -10px 40px 10px var(--button);/ */
+}
+.go-top-btn:hover a{
+
+  color: #183052;
+  /* Add a dark-grey background on hover */
+  /* /box-shadow: 10px 10px 40px 10px var(--button), -10px -10px 40px 10px var(--button);/ */
+}
+
+.go-top-btn {
+  position: fixed;
+  bottom: 75px;
+  right: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  background: #183052;
+  color: #26ce8f;
+  /* /display: none;/ */
+  justify-content: center;
+  align-items: center;
+  transition: 0s;
+  z-index: 20;
+  font-size: 2rem;
+}
+
+.go-top-btn a{
+  text-decoration:none;
+
+}
+
+
+.btn {
+  margin-top: 20px;
+  font-family: 'Poppins',  sans-serif;
+  width: max-content;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: var(--satan);
+  font-size: 15.996px;
+    line-height: 20px;
+    padding:12px 32px ;
+    border: none;
+    /* background: #bdc3c7; */
+    color: #ffffff;
+    /* padding: 11px 12px 8px; */
+    line-height: 22px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* 
+.btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+} */
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 60vh;
+  left: calc(75% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+

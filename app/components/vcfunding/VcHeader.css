@@ -1,0 +1,263 @@
+.vc-page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.vc-head {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    gap: 0;
+    margin: 0;
+    background: url('https://diversity.vc/wp-content/uploads/2022/01/Colleagues.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+
+.vcHeader {
+    width: 100%;
+    padding: 100px 1rem 0;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-display: row;
+     */
+    flex-direction: row;
+    background: #364655;
+    position: relative;
+}
+
+.vcHeaderImg {
+    position: absolute;
+    width: 1000px;
+    top: 70px;
+    z-index: 1;
+    right: -20px;
+}
+
+.vcHeaderLeft {
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    top: 150px;
+    left: 0;
+
+}
+
+.vcHeader .vcText {
+    width: 40%;
+    z-index: 20;
+
+    padding: 0;
+
+}
+
+.vcHeader .vcText>h1 {
+    color: var(--white);
+    font-weight: 700 !important;
+    line-height: 1.5 !important;
+    letter-spacing: 1px;
+    margin: 0;
+    z-index: 20;
+
+    text-align: left;
+
+    margin-bottom: 20px;
+    font-size: var(--heading);
+
+}
+
+.vcHeader .vcText>p {
+    font-size: var(--para);
+    width: 100%;
+    z-index: 20;
+
+    text-align: left;
+    color: var(--white);
+    line-height: 1.4;
+    margin-bottom: 20px;
+
+}
+
+
+
+.vcHeader .vcBlank {
+    width: 28%;
+    height: 100vh;
+
+}
+
+
+@media (max-width:1080px) {
+
+    .vcHeader .vcBlank,
+    .vcHeaderLeft {
+        display: none;
+    }
+
+    .vcHeader {
+        padding: 100px 0 0 4rem;
+        height: 90vh;
+        justify-content: left;
+    }
+    .vcHeaderImg {
+        width: 700px;
+    }
+    .vcHeader .vcText {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:800px) {
+
+    .vcHeaderImg {
+        display: none;
+    }
+
+    .vcHeader .vcText {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+.vc-content {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 3rem;
+    z-index: 10;
+
+}
+
+.vc-content>h1 {
+    font-size: var(--heading);
+    color: var(--white);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.vc-overlay {
+    background-color: #000000B3;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+
+.vc-wave {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* transform: rotate(180deg); */
+    border: none;
+    outline: none;
+}
+
+.vc-wave>svg {
+    display: block;
+    position: relative;
+    width: 100%;
+
+    height: calc(80% + 0.0625rem);
+    color: #fff;
+    fill: #fff;
+}
+
+/* ---------------------------TExt--------------------------- */
+
+.vc-text {
+
+    max-width: 1280px;
+    padding: 0 3rem;
+    margin: 3rem auto;
+}
+
+.vc-text>h4 {
+    max-width: 600px;
+    font-weight: 400;
+    font-size: var(--small);
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: var(--devil);
+
+}
+
+.vc-text>h1 {
+    max-width: 600px;
+    color: var(--bg-black);
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: var(--heading);
+}
+
+.vc-text>p {
+    max-width: 600px;
+    font-size: var(--para);
+    width: 100%;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.vc-globes {
+    max-width: 1180px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 5rem auto;
+    flex-wrap: wrap;
+}
+
+.vc-box {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+}
+
+.vc-box>img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.vc-box>p {
+    width: 100%;
+    font-size: var(--para);
+    width: 100%;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+
+}

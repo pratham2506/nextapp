@@ -1,0 +1,110 @@
+.nc-masterdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background: var(--bg-grey); */
+}
+
+.nc-imgdiv{
+    width: 50%;
+    height: 900px;
+    background-image: url("https://preview.colorlib.com/theme/academia/images/about.jpg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.nc-newimg{
+    background-image: url("https://droneairgear.com/assets/industyyy-21181c4d.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.nc-textdiv{
+    width: 50%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+.nc-textdiv p{
+    font-size: var(--para);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--yakuza);
+}
+
+.nc-textdiv h1{
+    font-size: var(--heading);
+    /* margin-bottom: 2rem; */
+}
+
+.nc-boxydiv{
+    width: 90%;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(171, 171, 171, 0.384);
+    margin-bottom: .5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.nc-boxydiv:hover{
+    transform: scale(1.025);
+    transition: all .5s;
+}
+
+.nc-boxyimg{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nc-boxyimg img{
+    width: 80px;
+    height: 80px;
+}
+
+.nc-boxytext h1{
+    font-size: var(--para);
+    line-height: 1.7;
+}
+
+.nc-boxytext p{
+    font-size: var(--small);
+    color: var(--text-grey);
+    line-height: 1.7;
+}
+
+.extradiv{
+    margin-top: 2rem;
+}
+
+@media(max-width:1000px){
+    .nc-masterdiv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nc-imgdiv{
+        width: 100%;
+    }
+
+    .nc-textdiv{
+        width: 100%;
+    }
+}
+
+@media(max-width:500px){
+    .nc-textdiv{
+        height: 100%;
+    }
+
+    .nc-boxydiv{
+        flex-direction: column;
+    }
+}
